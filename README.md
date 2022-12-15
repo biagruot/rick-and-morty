@@ -1,27 +1,53 @@
-# Next.js + Tailwind CSS Example
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+# Rick And Morty
 
-## Deploy your own
+Rick And Morty API Explorer
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Features
 
-## How to use
+- Testing Next.js + Tailwind CSS for the first time
+- Retrieve data from https://rickandmortyapi.com/api
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+## Todo
+
+- Tests
+- Accessibility
+- Performance improvements
+
+## Demo
+
+https://rick-and-morty-biagruot.vercel.app/
+
+
+## Run Locally
+
+Clone the project
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
+  git clone https://github.com/biagruot/rick-and-morty.git
 ```
+
+Go to the project directory
 
 ```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+  cd rick-and-morty
 ```
+
+Install dependencies
 
 ```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
+  npm install
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Start the server
+
+```bash
+  npm run dev
+```
+
+
+## Author
+
+- [@biagruot](https://github.com/biagruot)
+
